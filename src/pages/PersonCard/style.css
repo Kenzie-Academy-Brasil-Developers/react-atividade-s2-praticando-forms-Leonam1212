@@ -1,0 +1,15 @@
+.PersonCard {
+    background: tomato;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 8px ;
+    box-shadow: 10px 10px 1px rgba(50, 225, 210, 0.816);
+    letter-spacing: 2px;
+    line-height: 1.5;
+    color: rgb(238, 237, 237);
+    border: 2px solid wheat;
+}
+.PersonCard h2 {
+    text-align: center;
+}

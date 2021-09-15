@@ -1,0 +1,80 @@
+
+.form-group{
+    margin-bottom: 2rem;
+    position: relative;
+}
+.form input {
+    width: 100%;
+    height: 45px;
+    font-size: 13px;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    text-align: left;
+    padding-left: 1px;
+    
+}
+.form input:focus ~ span,
+.form input:valid ~ span
+
+    {
+    transform: translateY(-40px);
+    font-size: 14px;
+    opacity: 1;
+    color:#fff
+}
+
+.title-form {
+    text-align: center;
+    margin-bottom: 35px;
+    color: #fff;
+}
+.form span {
+    position: absolute;
+    top: 16px;
+    left: 8px;
+    pointer-events: none;
+    transition: 0.5s;
+    opacity: 0.5;
+    font-size:12px;
+   
+}
+.form button {
+    padding: 15px;
+    border-radius: 8px ;
+    border: transparent;
+    margin: 10px;
+    width: 100%;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: rgb(138, 226, 242);    
+    color: #fff
+}
+.form .form-senha {
+    display: flex;
+    justify-content: space-between;
+  
+}
+.form .form-senha .form-group {
+    margin: 2px;
+}
+.form .form__checkbox {
+    display: flex;
+    align-items: center; 
+    color: #fff;
+    
+}
+.form .form__checkbox input {
+    width: 20px;
+    margin-right: 15px
+}
+
+
+a {
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-left: 10px ;
+    text-decoration: none;
+    color: white;
+}
